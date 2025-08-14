@@ -1,0 +1,11 @@
+[General]
+update-url = https://raw.githubusercontent.com/hoanganh-producer01/capcut-conf/refs/heads/main/capcut.sgmodule
+
+[Script]
+capcut-pro = type=http-response, pattern=^https?:\/\/api\.capcut\.com\/.+\/payment\/products\/user-status, script-path=URL-đến-file-js-của-bạn, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+ca-passphrase = Shadowrocket
+ca-p12 = <dữ liệu-chứng-thư-của-bạn>
+enable = true
+hostname = %APPEND% api.capcut.com
