@@ -13,10 +13,10 @@ var fakeSubscription = {
     "ownership_type": "PURCHASED",
     "billing_issues_detected_at": null,
     "period_type": "normal",
-    "expires_date": "2099-12-31T23:59:59Z", // Ngày hết hạn được đặt rất xa
+    "expires_date": "2099-12-31T23:59:59Z", // Ngày hết hạn
     "grace_period_expires_date": null,
     "unsubscribe_detected_at": null,
-    "original_purchase_date": "2025-08-14T01:00:00Z", // Ngày mua giả định
+    "original_purchase_date": "2025-08-14T01:00:00Z", // Ngày mua
     "purchase_date": "2025-08-14T01:00:00Z",
     "store": "app_store"
 };
