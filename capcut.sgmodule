@@ -1,8 +1,8 @@
 [General]
-update-url = https://raw.githubusercontent.com/hoanganh-producer01/capcut-pro/refs/heads/main/capcut.sgmodule
+update-url = https://raw.githubusercontent.com/hoanganh-producer01/capcut-pro/main/capcut.sgmodule
 
 [Script]
-capcut-pro = type=http-response, pattern=^https:\/\/commerce-api-sg\.capcut\.com\/.+, script-path=https://raw.githubusercontent.com/hoanganh-producer01/capcut-pro/refs/heads/main/capcut.js, requires-body=true, max-size=-1, timeout=60
+capcut-pro = type=http-response, pattern=^https?:\/\/((api|commerce-api|commerce16-normal-mya|editor-api-sg|log-sg|feed-api-sg)\.capcut\.com|sg\.capcutapi\.com|inappcheck\.itunes\.apple\.com|i18n-api15\.faceueditor\.com)\/.*, script-path=https://raw.githubusercontent.com/hoanganh-producer01/capcut-pro/main/capcut.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 ca-passphrase = Shadowrocket
